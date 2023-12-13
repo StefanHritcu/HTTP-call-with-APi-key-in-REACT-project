@@ -13,8 +13,8 @@ function Parent() {
     }
     const handleSelectCity = () => {
         if(city) {
-            const apiKey = `b7b1472f075296e048b931b94d78b9e5`;
-            const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+            const apiKey = `@ENTER YOUR PERSONAL KEY`;
+            const apiURL = ``;
 
             fetch(apiURL)
             .then(response => response.json())
